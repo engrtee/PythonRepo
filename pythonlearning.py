@@ -122,6 +122,38 @@ def max_num(num1,num2 ,num3):
 
  print(max_num(30,23,1))   
 
+#num1 = float(input("Enter your first number: "))
+#op = (input("Enter your operator: "))
+#num2 = float(input("Enter your second number: "))
+
+#if op == "+" :
+ #   print(num1 + num2)
+#elif op == "-":
+ #   print(num1-num2)
+#elif op == "/":
+ #   print(num1 / num2)
+#elif op == "*" :
+#    print(num1 * num2)
+#else:
+ #   print("Invalid Operator")
+
+  #Dictionary
+monthConversions = {
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June ",
+    "Jul": "July",
+    "Aug": "August",
+    "Sept": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December",
+}  
+print(monthConversions.get("August"))
+
 
 
 
